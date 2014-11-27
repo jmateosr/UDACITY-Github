@@ -1,13 +1,13 @@
 * {
-	border: 1px solid red !important;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-box-sizing: border-box;
 	margin: 0 auto;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300 !important;
+	font-weight: 300;
 }
+
 /*@media only screen and (max-width: 300px) {
 	p {
 		background-color: blue;
@@ -16,6 +16,14 @@
 
 body {
 	max-width: 960px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+header {
+	border-bottom: 2px solid #BCBBBB;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /*-----------------Framework-----------------*/
@@ -62,7 +70,7 @@ body {
 -----------/*Home*/-----------------
 
 .my-name{
-	align: right;
+	text-align: right;
 }
 .row.h2{
 	margin-left:0px;
