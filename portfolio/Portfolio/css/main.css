@@ -4,13 +4,21 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-box-sizing: border-box;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300 !important;
 }
-
-@media only screen and (max-width: 300px) {
+/*@media only screen and (max-width: 300px) {
 	p {
 		background-color: blue;
 	}	
+}*/
+
+body {
+	max-width: 960px;
 }
+
+/*-----------------Framework-----------------*/
 
 .row {
 	width: 100%;
@@ -49,4 +57,13 @@
 }
 .col-11 {
 	width: 91.66%;
+}
+
+-----------/*Home*/-----------------
+
+.my-name{
+	align: right;
+}
+.row.h2{
+	margin-left:0px;
 }
